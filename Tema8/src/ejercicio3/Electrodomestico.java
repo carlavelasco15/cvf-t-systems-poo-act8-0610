@@ -1,10 +1,10 @@
 package ejercicio3;
 
 public class Electrodomestico {
-	private double precioBase;
-	private String color;
-	private char consumoEnergetico;
-	private double peso;
+	protected double precioBase;
+	protected String color;
+	protected char consumoEnergetico;
+	protected double peso;
 	
 	private static final String DEFAULT_COLOR = "blanco";
 	private static final char DEFAULT_CONSUMO_ENERGETICO = 'F';
